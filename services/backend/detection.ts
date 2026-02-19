@@ -30,3 +30,4 @@ export const detectCosmicRays = (buffer: ImageBuffer, threshold: number = 0.15):
   
   return mask;
 };
+
