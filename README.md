@@ -8,17 +8,17 @@ This project focuses on robust local statistics to identify impulse noise caused
 
 ✨ Features
 
-1.📷 Upload astronomical images directly in the browser
+1. 📷 Upload astronomical images directly in the browser
 
-2.🧠 Deterministic cosmic ray detection using local median statistics
+2. 🧠 Deterministic cosmic ray detection using local median statistics
 
-3.🧹 Noise removal via median-based interpolation
+3. 🧹 Noise removal via median-based interpolation
 
-4.📊 Real-time execution statistics (noise pixels, processing time, corruption ratio)
+4. 📊 Real-time execution statistics (noise pixels, processing time, corruption ratio)
 
-5.🖥️ Interactive UI built with React + TypeScript + Tailwind CSS
+5. 🖥️ Interactive UI built with React + TypeScript + Tailwind CSS
 
-6.⚡ Fully client-side (no backend server required)
+6. ⚡ Fully client-side (no backend server required)
 
 
 
@@ -47,23 +47,23 @@ This approach is robust against stars and extended objects, which do not form is
 
 3️⃣ Denoising (Median-Based Restoration)
 
-1.Detected artifact pixels are discarded
+1. Detected artifact pixels are discarded
 
-2.Replacement is performed using the median of valid neighboring pixels
+2. Replacement is performed using the median of valid neighboring pixels
 
-3.Preserves underlying astronomical structures while removing noise
+3. Preserves underlying astronomical structures while removing noise
 
 
 
 🖼️ Application Screens
 
-1.Processing Pipeline
+1. Processing Pipeline
 Upload image → adjust sensitivity → run denoising
 
-2.Noise Artifact Mask
+2. Noise Artifact Mask
 Visualizes isolated cosmic ray detections
 
-3.Execution Stats:
+3. Execution Stats:
      *Noise pixels detected
      *Processing time
      *Corruption percentage
@@ -125,20 +125,20 @@ If no cosmic rays are detected, lower the threshold — this is expected for cle
 
 📌 Notes
 
-1.The algorithm is deterministic (no ML / training required)
-2.Designed specifically for isolated impulse noise
-3.Stars and galaxies are intentionally preserved
-4.Performance depends on image resolution
+1. The algorithm is deterministic (no ML / training required)
+2. Designed specifically for isolated impulse noise
+3. Stars and galaxies are intentionally preserved
+4. Performance depends on image resolution
 
 
 
 📈 Future Improvements 
 
-1.Adaptive thresholding
-2.Multi-scale detection
-3.Batch image processing
-4.PSNR / SSIM quantitative evaluation
-5.GPU acceleration via WebGL / WebGPU
+1. Adaptive thresholding
+2. Multi-scale detection
+3. Batch image processing
+4. PSNR / SSIM quantitative evaluation
+5. GPU acceleration via WebGL / WebGPU
 
 
 
@@ -152,4 +152,5 @@ Focused on practical, explainable algorithms for scientific imaging.
 📄 License
 
 This project is open for academic and educational use.
+
 
