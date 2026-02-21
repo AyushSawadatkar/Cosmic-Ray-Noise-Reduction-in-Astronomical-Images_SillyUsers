@@ -1,0 +1,8 @@
+//Hya files git la kai ignore karaichay te sangta
+
+node_modules/
+dist/
+.DS_Store
+data/raw/*
+data/synthetic_noisy/*
+results/comparisons/*
