@@ -1,0 +1,7 @@
+{
+  "name": "Cosmic Ray Noise Reduction",
+  "description": "A professional-grade astronomical image processing suite designed to detect and remove cosmic ray artifacts using explainable, deterministic algorithms. Built with a modular architecture separating frontend, backend, and data simulation logic.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
